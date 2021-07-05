@@ -1,13 +1,24 @@
 .first-section{
     display:flex;
-
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom:100px ;
+}
+.second-section{
+    display: flex;
+    margin-bottom:100px ;
+}
+  
+body{
+    margin:0%;
+    font-family: 'Rubik', sans-serif;
 }
 .half-width{
     width:50%;
     padding-left: 5px;
 }
 .half-width img{
-    width:100%
+    width:100%;
 }
 h1{
     font-size: 70px;
@@ -21,3 +32,42 @@ h3{
 .orange-color{
     color:orange
 }
+.click-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    color:white;
+    font-weight:700;
+    padding:10px 40px;
+    border-radius: 10px;
+}
+.experience-item{
+    width:50%;
+    padding-left:5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 40px blue;
+
+}
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;}
+    #dev-exp-left{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice:1 ;
+    }
+    #dev-exp-right{
+        border-left: 7px solid;
+        border-image: linear-gradient(red,yellow);
+        border-image-slice:1 ;}
+        .flexible-container{
+            display:flex;
+            margin-bottom: 100px;
+        }
+        footer p{
+            text-align: center;
+        }
